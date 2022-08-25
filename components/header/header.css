@@ -67,24 +67,19 @@ header
 
 /* -=-=-=-=--=-=-=-=-MEDIA QUERIES (RESOLUÇÃO "MEDIA")-=-=-=--=-=-=-=-=- */
 @media screen and (max-width: 1024px){
-    header{
+    header {
         height: 68vh;
     }
 }
 
-
-
-
-
-
 /* -=-=-=-=--=-=-=-=-MEDIA QUERIES (RESOLUÇÃO "PEQUENA")-=-=-=--=-=-=-=-=- */
 @media screen and (max-width: 660px){
-    header{
+    header {
         height: 100vh;
     }
 
     .header__socials, 
-    .scroll__down{
+    .scroll__down {
         display: none;
     }
 }

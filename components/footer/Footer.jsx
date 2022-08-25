@@ -21,10 +21,14 @@ const Footer = () => {
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
-            <div className="footer_socials">
+            <div className="footer__socials">
                 <a href=""><AiOutlineWhatsApp/></a>
                 <a href="https://twitter.com/EmanoweL_"><FiTwitter/></a>
                 <a href=""><GrInstagram/></a>
+            </div>
+
+            <div className="footer__copyright">
+                <small>&copy;Manel KND. All rights reserved.</small>
             </div>
         </footer>
     )
